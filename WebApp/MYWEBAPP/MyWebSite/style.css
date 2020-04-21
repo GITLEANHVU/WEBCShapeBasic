@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0px;
+}
+
+#container {
+    width: 968px;
+    margin: 0px auto;
+}
+
+/* HEADER section ========================== */
+
+.header {
+    background: #5c755e;
+    height: 75px;
+    width: 964px;
+    border: solid 2px #000;
+    color: white;
+}
+/* NAVIGATION section ====================== */
+
+#nav {
+    background: black;
+    height: 45px;
+    width: 964px;
+    border: solid 2px #000;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+    padding: 5px;
+}
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: black;
+}
+
+#nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+/* SIDEBAR ================================= */
+
+.sidebar {
+    float: left;
+    width: 176px;
+    height: 2000px;
+    background: #9c9f84;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    border-bottom-left-radius: 1em;
+}
+
+
+
+/* MAIN ========================================= */
+
+.main {
+    float: left;
+    width: 786px;
+    height: 2000px;
+    background: #e5e4d7;
+    border-right: solid 2px #000;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    solid;
+    font-family: Arial;
+    font-size: 16px;
+    overflow: auto;
+    border-bottom-right-radius: 1em;
+}
+
+div.main div#box > p > a > img {
+    width: 150px;
+    height: 150px;
+}
+/* Mini content panel =========================== */
+
+#box {
+    background-color: #4e5a65;
+    border: 2px solid #000;
+    border-radius: 1em;
+    font-size: 95%;
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    color: white;
+}
+
+.test {
+    display: block;
+    text-align: center;
+}
+
+/*format text on your content page =========================== */
+
+div.main div.contentText {
+    margin: 10px;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+/*----Form--------------------------*/
+#theForm {
+    color: white;
+    display: table;
+    padding: 15px;
+    background-color: #4e5a65;
+    border: 2px solid black;
+}
+.row {
+    display: table-row;
+}
+.row label {
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+.row input {
+    display: table-cell;
+    padding: 2px;
+}

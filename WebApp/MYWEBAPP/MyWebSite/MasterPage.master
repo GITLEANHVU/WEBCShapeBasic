@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%-- Đây sẽ là trang giao diện chính và được dùng lại sau mỗi lần load--%>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>History Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="header">
+
+        </div>
+
+
+        <div id="nav">
+            <ul>
+                <li><a href="/Default.aspx">Home</a></li>
+                <li><a href="/webpages/Misc/contact.aspx">Contact Me</a></li>
+                <li><a href="/webpages/Misc/login.aspx">Login</a></li>
+            </ul>
+        </div>
+
+
+        <div class="sidebar">
+
+        </div>
+
+
+        <div class="main">
+            <%-- Phần này được gọi từ Defalt.aspx và hiển thị những thứ trong nó --%>
+            <asp:ContentPlaceHolder id="MainContent1" runat="server">
+
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

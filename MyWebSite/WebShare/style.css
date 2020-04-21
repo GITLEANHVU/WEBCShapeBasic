@@ -1,0 +1,44 @@
+﻿body {
+    width: 80%;
+    padding: 0px;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+/*--------header----------*/
+header#header-top > h1 {
+    color: grey;
+    text-align: center;
+}
+header#header-top nav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header#header-top nav {
+    text-align: center;
+}
+header#header-top ul li {
+    float: right;
+    
+    list-style-type: none;
+    width: 90px;
+    text-align: center;
+    padding: 17px;
+}
+header#header-top a {
+    color: deepskyblue;
+    width: 200px;
+    text-decoration: none;
+}
+header#header-top a:hover {
+    color: brown;
+    text-shadow: 1px 2px 4px black;
+}
+
+
+
+/*----------main-----------*/
+main section {
+
+}
